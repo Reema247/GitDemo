@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DCirrus Application">
+
+  
+  <test  name="Admin module">
+  
+  <parameter name="id" value="tararidhidcirrus@gmail.com"/>
+  <parameter name="password" value="Tarapapu_7"/>
+  <parameter name="corporateID" value="0020382"/>
+  
+  <parameter name="name" value="research"/>
+  <parameter name="name1" value="Supplee"/>
+  <parameter name="deleteName" value="aaaa"/>
+  <parameter name="subFoldername" value="listtt"/>
+  
+  
+  
+    <classes>
+      <class name="com.dcirrus.login.DcirrusAutomation">
+      
+    </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

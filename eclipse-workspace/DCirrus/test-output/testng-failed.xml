@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DCirrus Application]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Admin module(failed)">
+    <parameter name="password" value="BKBSBCDJ"/>
+    <parameter name="subFoldername" value="listtt"/>
+    <parameter name="name" value="research"/>
+    <parameter name="id" value="reemadey12313@gmail.com"/>
+    <parameter name="deleteName" value="aaaa"/>
+    <parameter name="name1" value="Supplee"/>
+    <parameter name="corporateID" value="0020382"/>
+    <classes>
+      <class name="com.dcirrus.login.DcirrusAutomation">
+        <methods>
+          <include name="downloadVersionList"/>
+          <include name="setUp"/>
+          <include name="existingFolder"/>
+          <include name="rename"/>
+          <include name="downloadFile"/>
+          <include name="enterFolderName"/>
+          <include name="tearDown"/>
+          <include name="downloadMultipleFiles"/>
+          <include name="restore"/>
+          <include name="subFolder"/>
+          <include name="createNewFolder"/>
+          <include name="uploadFile"/>
+          <include name="downloadFolder"/>
+          <include name="deleteFolder"/>
+        </methods>
+      </class> <!-- com.dcirrus.login.DcirrusAutomation -->
+    </classes>
+  </test> <!-- Admin module(failed) -->
+</suite> <!-- Failed suite [DCirrus Application] -->
